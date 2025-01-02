@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#video-container {
+    margin: 20px auto;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 80%;
+    margin: 15px 0;
+}

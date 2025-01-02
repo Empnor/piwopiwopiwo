@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piwo</title>
+    <link rel="stylesheet" href="piwo.css">
+</head>
+<body>
+    <audio id="audio" src="piwo.mp3"></audio>
+
+    <div id="video-container">
+        <video id="piwo-video" src="piwo.mp4" muted></video>
+    </div>
+
+    <div id="controls">
+        <button id="play-pause">Play</button>
+        <button id="backward">⏪</button>
+        <button id="forward">⏩</button>
+    </div>
+
+    <input type="range" id="progress" value="0" min="0" step="0.1">
+
+    <script src="piwo.js"></script>
+</body>
+</html>
